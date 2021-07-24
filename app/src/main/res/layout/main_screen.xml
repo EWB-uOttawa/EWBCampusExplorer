@@ -23,12 +23,14 @@
         android:id="@+id/view3"
         android:layout_width="179dp"
         android:layout_height="208dp"
-        android:layout_marginEnd="76dp"
+        android:layout_marginEnd="68dp"
         android:layout_marginBottom="500dp"
         android:background="@drawable/box2"
         android:rotation="-85"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <View
         android:id="@+id/view2"

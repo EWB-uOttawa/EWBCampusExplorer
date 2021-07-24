@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MustafaBranch">
+        <activity android:name=".FavouritesPage"></activity>
+        <activity
+            android:name=".ChooseBuilding"
+            android:exported="true" />
         <activity android:name=".WebLinks">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
