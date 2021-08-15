@@ -3,14 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/sakaf/OneDrive/Documents/GitHub/EWBCampusExplorer/EWBCampusExplorerMustafa/app/src/main/res/drawable-v24/background.xml" value="0.1" />
         <entry key="..\:/Users/sakaf/OneDrive/Documents/GitHub/EWBCampusExplorer/EWBCampusExplorerMustafa/app/src/main/res/drawable-v24/box.xml" value="0.1" />
         <entry key="..\:/Users/sakaf/OneDrive/Documents/GitHub/EWBCampusExplorer/EWBCampusExplorerMustafa/app/src/main/res/drawable-v24/buttoncircle.xml" value="0.1" />
+        <entry key="..\:/Users/sakaf/OneDrive/Documents/GitHub/EWBCampusExplorer/EWBCampusExplorerMustafa/app/src/main/res/drawable-v24/ic_black_search.xml" value="0.1" />
         <entry key="..\:/Users/sakaf/OneDrive/Documents/GitHub/EWBCampusExplorer/EWBCampusExplorerMustafa/app/src/main/res/drawable-v24/ic_destination.xml" value="0.1" />
         <entry key="..\:/Users/sakaf/OneDrive/Documents/GitHub/EWBCampusExplorer/EWBCampusExplorerMustafa/app/src/main/res/drawable-v24/ic_favourites.xml" value="0.1" />
         <entry key="..\:/Users/sakaf/OneDrive/Documents/GitHub/EWBCampusExplorer/EWBCampusExplorerMustafa/app/src/main/res/drawable-v24/ic_search.xml" value="0.1" />
         <entry key="..\:/Users/sakaf/OneDrive/Documents/GitHub/EWBCampusExplorer/EWBCampusExplorerMustafa/app/src/main/res/drawable/box2.xml" value="0.1" />
         <entry key="..\:/Users/sakaf/OneDrive/Documents/GitHub/EWBCampusExplorer/EWBCampusExplorerMustafa/app/src/main/res/drawable/circle.xml" value="0.11944444444444445" />
         <entry key="..\:/Users/sakaf/OneDrive/Documents/GitHub/EWBCampusExplorer/EWBCampusExplorerMustafa/app/src/main/res/layout/activity_main.xml" value="0.15" />
+        <entry key="..\:/Users/sakaf/OneDrive/Documents/GitHub/EWBCampusExplorer/EWBCampusExplorerMustafa/app/src/main/res/layout/choose_building.xml" value="0.1814814814814815" />
         <entry key="..\:/Users/sakaf/OneDrive/Documents/GitHub/MyApplication/app/src/main/res/drawable/bottom_cicle.xml" value="0.2203125" />
         <entry key="..\:/Users/sakaf/OneDrive/Documents/GitHub/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.1634963768115942" />
       </map>
