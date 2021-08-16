@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".PickDestination"
+            android:exported="true" />
+        <activity
             android:name=".favouritesPage"
             android:exported="true" />
         <activity
