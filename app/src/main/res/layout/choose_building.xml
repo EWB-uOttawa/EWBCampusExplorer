@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ECEFF3"
-    tools:context=".MainScreen">
-
-
+    tools:context=".chooseBuilding">
 
     <View
         android:id="@+id/view3"
         android:layout_width="179dp"
         android:layout_height="208dp"
-        android:layout_marginEnd="76dp"
-        android:layout_marginBottom="500dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="612dp"
         android:background="@drawable/box2"
         android:rotation="-85"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -24,8 +21,8 @@
         android:id="@+id/view2"
         android:layout_width="206dp"
         android:layout_height="211dp"
-        android:layout_marginEnd="240dp"
-        android:layout_marginBottom="500dp"
+        android:layout_marginEnd="228dp"
+        android:layout_marginBottom="644dp"
         android:background="@drawable/box"
         android:rotation="25"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -45,12 +42,12 @@
         app:layout_constraintHorizontal_bias="0.363"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.120000005" />
+        app:layout_constraintVertical_bias="0.175" />
 
     <ScrollView
         android:id="@+id/b"
-        android:layout_width="376dp"
-        android:layout_height="496dp"
+        android:layout_width="371dp"
+        android:layout_height="590dp"
         android:layout_marginStart="1dp"
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="5dp"
@@ -58,7 +55,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" >
+        app:layout_constraintVertical_bias="1.0">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -70,135 +67,132 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:weightSum="3"
-                >
+                android:weightSum="3">
+
                 <ImageButton
                     android:layout_width="20dp"
                     android:layout_height="100dp"
-                    android:layout_weight="1"
-                    >
-                </ImageButton>
+                    android:layout_weight="1"></ImageButton>
+
                 <ImageButton
                     android:layout_width="20dp"
                     android:layout_height="100dp"
-                    android:layout_weight="1">
-                </ImageButton>
+                    android:layout_weight="1"></ImageButton>
+
                 <ImageButton
                     android:layout_width="0dp"
                     android:layout_height="100dp"
-                    android:layout_weight="1">
-                </ImageButton>
+                    android:layout_weight="1"></ImageButton>
             </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:weightSum="3"
-                >
-                <ImageButton
-                    android:layout_width="20dp"
-                    android:layout_height="100dp"
-                    android:layout_weight="1"
-                    >
-                </ImageButton>
-                <ImageButton
-                    android:layout_width="20dp"
-                    android:layout_height="100dp"
-                    android:layout_weight="1">
-                </ImageButton>
-                <ImageButton
-                    android:layout_width="0dp"
-                    android:layout_height="100dp"
-                    android:layout_weight="1">
-                </ImageButton>
-            </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:weightSum="3">
+
                 <ImageButton
                     android:layout_width="20dp"
                     android:layout_height="100dp"
-                    android:layout_weight="1"
-                    >
-                </ImageButton>
+                    android:layout_weight="1"></ImageButton>
+
                 <ImageButton
                     android:layout_width="20dp"
                     android:layout_height="100dp"
-                    android:layout_weight="1">
-                </ImageButton>
+                    android:layout_weight="1"></ImageButton>
+
                 <ImageButton
                     android:layout_width="0dp"
                     android:layout_height="100dp"
-                    android:layout_weight="1">
-                </ImageButton>
+                    android:layout_weight="1"></ImageButton>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:weightSum="3">
+
                 <ImageButton
                     android:layout_width="20dp"
                     android:layout_height="100dp"
-                    android:layout_weight="1"
-                    >
-                </ImageButton>
+                    android:layout_weight="1"></ImageButton>
+
                 <ImageButton
                     android:layout_width="20dp"
                     android:layout_height="100dp"
-                    android:layout_weight="1">
-                </ImageButton>
+                    android:layout_weight="1"></ImageButton>
+
                 <ImageButton
                     android:layout_width="0dp"
                     android:layout_height="100dp"
-                    android:layout_weight="1">
-                </ImageButton>
+                    android:layout_weight="1"></ImageButton>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:weightSum="3">
+
                 <ImageButton
                     android:layout_width="20dp"
                     android:layout_height="100dp"
-                    android:layout_weight="1"
-                    >
-                </ImageButton>
+                    android:layout_weight="1"></ImageButton>
+
                 <ImageButton
                     android:layout_width="20dp"
                     android:layout_height="100dp"
-                    android:layout_weight="1">
-                </ImageButton>
+                    android:layout_weight="1"></ImageButton>
+
                 <ImageButton
                     android:layout_width="0dp"
                     android:layout_height="100dp"
-                    android:layout_weight="1">
-                </ImageButton>
+                    android:layout_weight="1"></ImageButton>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:weightSum="3">
+
                 <ImageButton
                     android:layout_width="20dp"
                     android:layout_height="100dp"
-                    android:layout_weight="1"
-                    >
-                </ImageButton>
+                    android:layout_weight="1"></ImageButton>
+
                 <ImageButton
                     android:layout_width="20dp"
                     android:layout_height="100dp"
-                    android:layout_weight="1">
-                </ImageButton>
+                    android:layout_weight="1"></ImageButton>
+
                 <ImageButton
                     android:layout_width="0dp"
                     android:layout_height="100dp"
-                    android:layout_weight="1">
-                </ImageButton>
+                    android:layout_weight="1"></ImageButton>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <ImageButton
+                    android:layout_width="20dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"></ImageButton>
+
+                <ImageButton
+                    android:layout_width="20dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"></ImageButton>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"></ImageButton>
             </LinearLayout>
 
         </LinearLayout>
@@ -214,10 +208,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.209"
+        app:layout_constraintHorizontal_bias="0.087"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.025" />
+        app:layout_constraintVertical_bias="0.056" />
 
 
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

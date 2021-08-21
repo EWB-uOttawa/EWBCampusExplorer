@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PickDestination"
-    android:background="@drawable/background">
-
+    tools:context=".PickDestination">
 
     <View
         android:id="@+id/view"
@@ -24,8 +22,8 @@
         android:id="@+id/view3"
         android:layout_width="179dp"
         android:layout_height="208dp"
-        android:layout_marginEnd="76dp"
-        android:layout_marginBottom="500dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="544dp"
         android:background="@drawable/box2"
         android:rotation="-85"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -35,8 +33,8 @@
         android:id="@+id/view2"
         android:layout_width="206dp"
         android:layout_height="211dp"
-        android:layout_marginEnd="240dp"
-        android:layout_marginBottom="500dp"
+        android:layout_marginEnd="232dp"
+        android:layout_marginBottom="540dp"
         android:background="@drawable/box"
         android:rotation="25"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -95,8 +93,8 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="259dp"
-        android:layout_height="35dp"
+        android:layout_width="265dp"
+        android:layout_height="41dp"
         android:background="@drawable/round"
         android:drawableLeft="@drawable/ic_classes"
         android:text="Classes"
@@ -110,8 +108,8 @@
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="259dp"
-        android:layout_height="35dp"
+        android:layout_width="265dp"
+        android:layout_height="41dp"
         android:background="@drawable/round"
         android:drawableLeft="@drawable/ic_food"
         android:text="food"
@@ -125,8 +123,8 @@
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="259dp"
-        android:layout_height="35dp"
+        android:layout_width="265dp"
+        android:layout_height="41dp"
         android:layout_marginBottom="236dp"
         android:background="@drawable/round"
         android:drawableLeft="@drawable/ic_bookstore"
@@ -135,14 +133,15 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button4"
-        app:layout_constraintVertical_bias="0.31" />
+        app:layout_constraintVertical_bias="0.196" />
 
     <Button
         android:id="@+id/button6"
-        android:layout_width="259dp"
-        android:layout_height="35dp"
+        android:layout_width="265dp"
+        android:layout_height="41dp"
         android:background="@drawable/round"
         android:drawableLeft="@drawable/ic_services"
         android:text="Services"
@@ -156,8 +155,8 @@
 
     <Button
         android:id="@+id/button7"
-        android:layout_width="259dp"
-        android:layout_height="35dp"
+        android:layout_width="265dp"
+        android:layout_height="41dp"
         android:background="@drawable/round"
         android:drawableLeft="@drawable/ic_links"
         android:text="Links"
@@ -169,4 +168,4 @@
         app:layout_constraintTop_toBottomOf="@+id/button4"
         app:layout_constraintVertical_bias="0.39999998" />
 
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
