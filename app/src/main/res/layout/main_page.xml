@@ -4,16 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EADEDE"
+    android:background="#ECEFF3"
     tools:context=".mainPage">
 
     <View
         android:id="@+id/view"
         android:layout_width="450dp"
         android:layout_height="370dp"
-        android:layout_marginTop="596dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="40dp"
         android:background="@drawable/circle"
-        android:translationY="80dp"
+        android:translationY="92dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.315"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,10 +22,10 @@
 
     <View
         android:id="@+id/view3"
-        android:layout_width="179dp"
-        android:layout_height="208dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginBottom="496dp"
+        android:layout_width="254dp"
+        android:layout_height="376dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="562dp"
         android:background="@drawable/box2"
         android:rotation="-85"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -32,10 +33,10 @@
 
     <View
         android:id="@+id/view2"
-        android:layout_width="206dp"
-        android:layout_height="211dp"
-        android:layout_marginEnd="216dp"
-        android:layout_marginBottom="496dp"
+        android:layout_width="296dp"
+        android:layout_height="288dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="600dp"
         android:background="@drawable/box"
         android:rotation="25"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -51,7 +52,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.88"
+        app:layout_constraintVertical_bias="0.90"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
@@ -65,7 +66,7 @@
         app:layout_constraintHorizontal_bias="0.14"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.93"
+        app:layout_constraintVertical_bias="0.95"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
@@ -79,14 +80,17 @@
         app:layout_constraintHorizontal_bias="0.86"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.93"
+        app:layout_constraintVertical_bias="0.95"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="309dp"
         android:layout_height="132dp"
+        android:layout_marginStart="20dp"
+        android:fontFamily="sans-serif-medium"
         android:text="WELCOME \nto EWB's\nCLASS FINDER APP"
+        android:textColor="#35524A"
         android:textSize="32sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
