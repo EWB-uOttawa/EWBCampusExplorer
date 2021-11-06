@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Content">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints">
+
+                <ImageView
+                    android:id="@+id/news_banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/energy" />
+
+                <ImageView
+                    android:id="@+id/news_banner_button"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/arrow_back_24"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <TextView
+                    android:id="@+id/news_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="250dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="Day of Action 2021 - Day 2 : Lets Talk About Climate Change and Green Energy"
+                    android:textColor="#3C0000"
+                    android:textSize="21dp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/news_banner" />
+
+                <TextView
+                    android:id="@+id/news_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:paddingLeft="20dp"
+                    android:text="06-06-2021"
+                    android:textColor="#35524A"
+                    android:textSize="17dp"
+                    app:layout_constraintTop_toBottomOf="@+id/news_title"
+                    tools:layout_editor_absoluteX="20dp" />
+
+                <TextView
+                    android:id="@+id/news_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/news_date"
+                    tools:layout_editor_absoluteX="20dp"
+                    android:layout_marginTop="20dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="Yesterday we introduced our exceptional lineup of policy and advocacy experts joining us on Day One (April 30) of the Global (R)Evolution. Today, we’d like you to meet the group joining us on Day Two (May 1)! \n\nWe have 12 thought leaders facilitating discussions on climate change, green energy investments, and post-pandemic strategies for technology and innovation. Check out the Day Two lineup below and read more about them through their bios. \n\nMeet Our Moderators and Panelists for Day Two (May 1): \n\n11:00AM ET – “CLIMATE CHANGE AND CANADA’S COMMITMENT TO NET ZERO BY 2050”\n\nChristopher Evans; Deputy Director of Energy Transition and Finance, Environment and Climate Change CanadaDale Beugin; Research and Analysis Vice President, Canadian Institute for Climate Choices \n\nDavid Miller; Managing Director, International Diplomacy and Advocacy, C40 Cities Climate Leadership GroupVanessa Corkal; Policy Analyst, International Institute for Sustainable Development \n\n2:00PM ET – “INFRASTRUCTURE AND GREEN ENERGY INVESTMENTS: BRIDGING THE FINANCING GAP IN THE DEVELOPING WORLD” \n\n4:00PM ET – “INNOVATION, STARTUPS AND TECH: PAVING THE WAY POST-PANDEMIC TO ECONOMIC GROWTH”"
+                    android:textColor="#AE847E"
+                    android:textSize="18dp" />
+
+                <LinearLayout
+                    android:id="@+id/news_link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/news_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp">
+
+                    <View
+                        android:layout_width="64dp"
+                        android:layout_height="2dp"
+                        android:background="#35524A"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginRight="20dp" />
+
+                    <ImageView
+                        android:id="@+id/news_link_icon"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        app:srcCompat="@drawable/light_bulb_24"
+                        tools:ignore="VectorDrawableCompat" />
+
+                    <TextView
+                        android:id="@+id/news_link_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="Join the R(Evolution)"
+                        android:textColor="#35524A"
+                        android:textSize="17sp" />
+
+                    <View
+                        android:layout_width="64dp"
+                        android:layout_height="2dp"
+                        android:background="#35524A"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginLeft="20dp"/>
+
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
